@@ -538,6 +538,10 @@ a.hoverline:hover {
   top: 2px;
 }
 
+.fa-youtube:before {
+  color: #ff0000;
+}
+
 small {
   display: none;
 }
@@ -666,6 +670,11 @@ small {
     font-size: 20px;
     line-height: 24px;
   }
+
+  .card .card-content .card-title {
+    text-transform: capitalize;
+  }
+  
   #experience span.card-title {
     text-align: center;
     display: block;
