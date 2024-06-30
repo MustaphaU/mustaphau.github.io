@@ -703,3 +703,14 @@ small {
   max-width: 100%; /* Ensures images are responsive */
   height: auto; /* Maintains aspect ratio */
 }
+
+/* Adjust the container holding the links */
+.col.s12.m10 {
+  margin-bottom: 20px; /* Add space below the container */
+}
+
+/* Style for the role title to ensure it doesn't overlap */
+.role {
+  display: block; /* Ensure it's block level for margin to take effect */
+  margin-top: 20px; /* Add space above the title */
+}
